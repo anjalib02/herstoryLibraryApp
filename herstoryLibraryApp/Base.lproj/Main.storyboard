@@ -185,10 +185,10 @@
             </objects>
             <point key="canvasLocation" x="353.62318840579712" y="-983.03571428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Topic1 Resources View Controller-->
         <scene sceneID="iLb-d8-aTs">
             <objects>
-                <viewController id="evv-vS-ZYc" sceneMemberID="viewController">
+                <viewController id="evv-vS-ZYc" customClass="topic1ResourcesViewController" customModule="herstoryLibraryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="isF-HB-8SI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -197,6 +197,20 @@
                                 <rect key="frame" x="-54" y="-54" width="522" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4f-bf-CaX">
+                                <rect key="frame" x="122" y="93" width="170" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Resources">
+                                        <attributes>
+                                            <color key="NSColor" red="0.19541350695905924" green="0.083185005443931856" blue="0.017531004870635726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="38" name="AcademyEngravedLetPlain"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pri-mr-Wqn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -411,10 +425,10 @@
             </objects>
             <point key="canvasLocation" x="353.62318840579712" y="-317.41071428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Topic1 History View Controller-->
         <scene sceneID="wgP-vy-cTf">
             <objects>
-                <viewController id="pPo-qX-LpV" sceneMemberID="viewController">
+                <viewController id="pPo-qX-LpV" customClass="topic1HistoryViewController" customModule="herstoryLibraryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2nC-I4-IsA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -508,10 +522,10 @@
             </objects>
             <point key="canvasLocation" x="2137.68115942029" y="-983.03571428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Topic2 Resources View Controller-->
         <scene sceneID="Mic-DL-YYr">
             <objects>
-                <viewController id="R0v-qk-xnR" sceneMemberID="viewController">
+                <viewController id="R0v-qk-xnR" customClass="topic2ResourcesViewController" customModule="herstoryLibraryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tmk-zh-y2k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -520,6 +534,20 @@
                                 <rect key="frame" x="-54" y="-54" width="522" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KO5-Gc-nqa">
+                                <rect key="frame" x="122" y="89" width="170" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Resources">
+                                        <attributes>
+                                            <color key="NSColor" red="0.19541350695905924" green="0.083185005443931856" blue="0.017531004870635726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="38" name="AcademyEngravedLetPlain"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bdK-YW-d2w"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -530,10 +558,10 @@
             </objects>
             <point key="canvasLocation" x="1234.7826086956522" y="-317.41071428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Topic2 History View Controller-->
         <scene sceneID="gTU-3H-dGw">
             <objects>
-                <viewController id="W5z-dO-20n" sceneMemberID="viewController">
+                <viewController id="W5z-dO-20n" customClass="topic2HistoryViewController" customModule="herstoryLibraryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zl1-0p-rmm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -738,10 +766,10 @@
             </objects>
             <point key="canvasLocation" x="2879.7101449275365" y="-317.41071428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Topic3 Resources View Controller-->
         <scene sceneID="FLf-bu-0Ze">
             <objects>
-                <viewController id="GrB-Pm-neF" sceneMemberID="viewController">
+                <viewController id="GrB-Pm-neF" customClass="topic3ResourcesViewController" customModule="herstoryLibraryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z5O-EC-twM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -789,11 +817,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">In the Malala Fund you can donate, buy products, share stories or create a fundraiser in which you can raise money for the Malala Fund. 
+                                        <string key="content">In the Malala Fund you can donate, buy products, share stories or create a fundraiser in which you can raise money for the Malala Fund. Click the page to learn more!
 
 
 </string>
                                         <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="19" name="Georgia"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -807,16 +836,42 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNQ-3L-yJC">
-                                <rect key="frame" x="32" y="662" width="260" height="208"/>
+                                <rect key="frame" x="32" y="662" width="253" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">In Girl Up you can enter the events, and courses they offer, and raise your voice by sharing your story, donating, or starting a club in your school or community. 
-
-
+                                        <string key="content">In Girl Up you can enter the events, and courses they offer, and raise your voice by sharing your story, donating, or starting a club in your school or community. </string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="Georgia"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="19" name="Georgia"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Click the book to learn more!">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="Georgia"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CgoKA
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="19" name="Georgia"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="Georgia"/>
                                             <real key="NSKern" value="0.0"/>
                                             <font key="NSOriginalFont" size="19" name="Georgia"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -841,11 +896,37 @@
                                     <segue destination="MkV-KD-zOj" kind="show" id="DRb-aE-yyh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQv-Mn-3kI">
+                                <rect key="frame" x="47" y="455" width="38" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="doc.plaintext.fill" catalog="system">
+                                    <attributedString key="attributedTitle"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="malalaButtonPressed:" destination="GrB-Pm-neF" eventType="touchUpInside" id="ewO-Rs-xZT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgZ-sp-JoF">
+                                <rect key="frame" x="293" y="672" width="35" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="book.closed.fill" catalog="system" title=""/>
+                                <connections>
+                                    <action selector="girlupButtonPressed:" destination="GrB-Pm-neF" eventType="touchUpInside" id="ctg-Pt-Iq6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uGD-6k-fLP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="VZu-mn-XYh"/>
+                    <connections>
+                        <outlet property="girlupButtonPressed" destination="dgZ-sp-JoF" id="Anx-1W-80G"/>
+                        <outlet property="malalaButtonPressed" destination="EQv-Mn-3kI" id="Dp2-Vb-ATa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ajj-bl-yON" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -957,10 +1038,10 @@
             </objects>
             <point key="canvasLocation" x="2137.68115942029" y="339.50892857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Topic3 Resources2 View Controller-->
         <scene sceneID="pbx-dS-Pb8">
             <objects>
-                <viewController id="MkV-KD-zOj" sceneMemberID="viewController">
+                <viewController id="MkV-KD-zOj" customClass="topic3Resources2ViewController" customModule="herstoryLibraryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c9O-Hz-cDB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -974,7 +1055,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">In CARE you can get involved from sideline support, to letter writing, donating money, volunteering, and more. 
+                                        <string key="content">In CARE you can get involved from sideline support, to letter writing, donating money, volunteering, and more. Click the heart to learn more!
 
 </string>
                                         <attributes>
@@ -1023,28 +1104,16 @@ CgoKA
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73x-qf-2hQ">
-                                <rect key="frame" x="352" y="783" width="42" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="arrow.right.doc.on.clipboard" catalog="system"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrow.right.doc.on.clipboard" catalog="system">
-                                    <color key="baseForegroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="QHV-Vc-2zh" kind="show" id="FCQ-cN-dLg"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dvc-9A-i1m">
                                 <rect key="frame" x="32" y="256" width="274" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Khan Academy, Grow with Google, Edx, Schoolhouse, and Edutin are online organizations in which you can learn anything for free! You only need wifi and a computer.
+                                        <string key="content">Khan Academy, Grow with Google, Edx, Schoolhouse, and Edutin are online organizations in which you can learn anything for free! You only need wifi and a computer. Click books to learn more!
 
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="19" name="Georgia"/>
+                                            <font key="NSFont" size="18" name="Georgia"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -1057,23 +1126,83 @@ CgoKA
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkp-U1-s1L">
-                                <rect key="frame" x="290" y="675" width="42" height="153"/>
+                                <rect key="frame" x="290" y="673" width="42" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" image="arrow.right.doc.on.clipboard" catalog="system"/>
                                 <buttonConfiguration key="configuration" style="plain" image="book.closed" catalog="system">
                                     <color key="baseForegroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="QHV-Vc-2zh" kind="show" id="AYV-Da-Avb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6OO-Yu-gkk">
+                                <rect key="frame" x="20" y="58" width="42" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="heart.rectangle.fill" catalog="system" title=""/>
+                                <connections>
+                                    <action selector="careButtonPressed:" destination="MkV-KD-zOj" eventType="touchUpInside" id="sga-7U-0jo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukZ-n9-AxH">
+                                <rect key="frame" x="358" y="265" width="36" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="khan"/>
+                                <connections>
+                                    <action selector="khanButtonPressed:" destination="MkV-KD-zOj" eventType="touchUpInside" id="BEB-vg-5JT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKr-pQ-PbZ">
+                                <rect key="frame" x="326" y="290" width="33" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="google"/>
+                                <connections>
+                                    <action selector="googleButtonPressed:" destination="MkV-KD-zOj" eventType="touchUpInside" id="3vd-pY-W7g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWI-Sv-nPL">
+                                <rect key="frame" x="20" y="503" width="31" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="edx"/>
+                                <connections>
+                                    <action selector="edxButtonPressed:" destination="MkV-KD-zOj" eventType="touchUpInside" id="xYU-P7-7cN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4F-XT-wP8">
+                                <rect key="frame" x="52" y="455" width="32" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="edutin"/>
+                                <connections>
+                                    <action selector="edutinButtonPressed:" destination="MkV-KD-zOj" eventType="touchUpInside" id="E25-8d-7yQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ImH-Xy-UqO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="acz-5a-EP8"/>
+                    <connections>
+                        <outlet property="careButtonPressed" destination="6OO-Yu-gkk" id="yqN-x1-oHa"/>
+                        <outlet property="edutinButtonPressed" destination="h4F-XT-wP8" id="l6z-cj-lzm"/>
+                        <outlet property="edxButtonPressed" destination="kWI-Sv-nPL" id="5QZ-0g-RVu"/>
+                        <outlet property="googleButtonPressed" destination="bKr-pQ-PbZ" id="07p-I3-Ltz"/>
+                        <outlet property="khanButtonPressed" destination="ukZ-n9-AxH" id="QKY-rt-alc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t1p-Ay-ekG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1235" y="1041"/>
+            <point key="canvasLocation" x="1234.7826086956522" y="1040.625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qbm-5y-q4w">
@@ -1476,7 +1605,10 @@ CgoKA
         <image name="6" width="828" height="1792"/>
         <image name="arrow.right.doc.on.clipboard" catalog="system" width="116" height="128"/>
         <image name="book.closed" catalog="system" width="115" height="128"/>
+        <image name="book.closed.fill" catalog="system" width="115" height="128"/>
         <image name="cloud" catalog="system" width="128" height="88"/>
+        <image name="doc.plaintext.fill" catalog="system" width="115" height="128"/>
+        <image name="heart.rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
         <image name="sun.min.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
